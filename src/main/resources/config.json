@@ -1,0 +1,27 @@
+{
+  "vultr-api-key": "",
+  "command": "firewall rule list",
+  "firewall-group-id": "",
+
+  "firewall-rule": {
+    "remove-case": {
+      "rule-number": ""
+    },
+    "add-case": {
+      "ip-address": "",
+      "port": "3306"
+    },
+    "list-case": {
+    }
+  },
+
+  "firewall-group": {
+    "list-case": []
+  },
+
+  "command-list": [
+    "firewall rule [add/remove/list]",
+    "firewall group [list]",
+    "TODO: add more commands"
+  ]
+}
